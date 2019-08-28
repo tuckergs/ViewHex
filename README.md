@@ -7,7 +7,9 @@ This is a simple hex viewer made in Haskell that uses ncurses.
 ## Compiling
 
 This program is written in Haskell. If you don't already have Haskell, I'd recommend getting Haskell Platform.
+
 You also need to install the ncurses library and install the Haskell ncurses package, which provides bindings to the ncurses library
+In other words, go install GNU ncurses and then run ``cabal install ncurses`` to get the Haskell bindings
 
 
 Then run
