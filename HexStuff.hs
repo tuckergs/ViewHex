@@ -5,7 +5,7 @@ import Text.Read
 import Data.Char
 
 
-newtype Hex a = Hex { getVal :: a }
+newtype Hex a = Hex { unHex :: a }
   deriving Eq
 
 instance Integral a => Read (Hex a) where
